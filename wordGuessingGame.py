@@ -1,5 +1,5 @@
 import random
-wordBank = ["cat", "cute", "meow", "cozy", "computer", "neko"]
+wordBank = ["cat", "cute", "meow", "cozy", "computer", "neko", "chocolate", "luck", "lust", "hair", "shark", "ubuntu", "chain", "paw", "moon", "candle", "pluto", "math"]
 
 word = random.choice(wordBank)
 guessWord = ["_"] * len(word)
