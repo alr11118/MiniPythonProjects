@@ -22,6 +22,6 @@ while attempts > 0:
         print("\nCongratulations!! you guessed the word: " + word)
         break
 
-    if attempts == 0 and "_" not in guessWord:
+    if attempts == 0 and "_" in guessWord:
         print("\nYou ran out of attempts! The word was: " + word)
         
